@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DAO\" />
+    <Folder Include="Models\Entities\Commons\" />
+    <Folder Include="Models\Enums\" />
+    <Folder Include="Models\Exceptions\" />
+    <Folder Include="Tools\Style\" />
+  </ItemGroup>
+
+</Project>
